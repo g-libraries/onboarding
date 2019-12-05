@@ -1,0 +1,2 @@
+include ':app', ':onboarding-onboarding'
+rootProject.name='onboarding'

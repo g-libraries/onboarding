@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="onboardingLayout" format="reference"/>
+    <attr name="onboardingSkipButton" format="reference"/>
+    <attr name="onboardingCircleIndicator" format="reference"/>
+    <attr name="onboardingNextButton" format="reference"/>
+    <attr name="onboardingAnimation" format="reference"/>
+    <attr name="onboardingTitle" format="reference"/>
+    <attr name="onboardingMessage" format="reference"/>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">onboarding</string>
+
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_title_1">Earn bonus points</string>
+    <string name="onboarding_message_1">10% from each order are converted into bonus points and get added to your customer card. They can be used for payment in all restaurants of our chain</string>
+
+</resources>

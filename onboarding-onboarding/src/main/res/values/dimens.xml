@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //ONBOARDING
+    <dimen name="onboarding_padding">@dimen/_16sdp</dimen>
+    <dimen name="onboarding_medium_padding">@dimen/_20sdp</dimen>
+    <dimen name="onboarding_large_padding">@dimen/_22sdp</dimen>
+    <dimen name="onboarding_skip_text_size">@dimen/_15sdp</dimen>
+    <dimen name="onboarding_dot_height">@dimen/_10sdp</dimen>
+    <dimen name="onboarding_dot_margin">@dimen/_5sdp</dimen>
+    <dimen name="onboarding_next_btn_width_height">@dimen/_40sdp</dimen>
+    <dimen name="onboarding_animation_width_height">@dimen/_200sdp</dimen>
+    <dimen name="onboarding_title_text_size">@dimen/_14sdp</dimen>
+    <dimen name="onboarding_message_text_size">@dimen/_12sdp</dimen>
+</resources>

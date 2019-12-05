@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeLight" parent="android:Theme.Material.Light">
+        <!--        Add custom styles in app like this in your APP styles.xml:-->
+        <!--        <item name="style name from attrs in LIBRARY">@style/your custom style in APP styles.xml</item>-->
+
+        <!--        Examples:-->
+<!--        <item name="onboardingLayout">@style/OnboardingLayout</item>-->
+<!--        <item name="onboardingSkipButton">@style/OnboardingSkipButton</item>-->
+<!--        <item name="onboardingNextButton">@style/OnboardingNextButton</item>-->
+<!--        <item name="onboardingCircleIndicator">@style/OnboardingCircleIndicator</item>-->
+<!--        <item name="onboardingAnimation">@style/OnboardingAnimation</item>-->
+<!--        <item name="onboardingTitle">@style/OnboardingTitle</item>-->
+<!--        <item name="onboardingMessage">@style/OnboardingMessage</item>-->
+    </style>
+
+<!--    Default styles-->
+    <style name="HelveticaRegularTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/helvetica_neue_regular</item>
+    </style>
+
+    <style name="HelveticaMediumTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+    </style>
+
+    <style name="HelveticaBoldTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/helvetica_neue_bold</item>
+    </style>
+
+    <style name="OnboardingLayout" >
+        <item name="android:background">@color/onboarding_layout_bg</item>
+    </style>
+
+    <style name="OnboardingSkipButton" parent="HelveticaRegularTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/onboarding_medium_padding</item>
+        <item name="android:text">@string/onboarding_skip</item>
+        <item name="android:textColor">@color/onboarding_skip</item>
+        <item name="android:textSize">@dimen/onboarding_skip_text_size</item>
+    </style>
+
+    <style name="OnboardingNextButton">
+        <item name="android:layout_width">@dimen/onboarding_next_btn_width_height</item>
+        <item name="android:layout_height">@dimen/onboarding_next_btn_width_height</item>
+        <item name="android:layout_margin">@dimen/onboarding_medium_padding</item>
+        <item name="android:background">@drawable/onboarding_next_selector</item>
+    </style>
+
+    <style name="OnboardingCircleIndicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/onboarding_dot_height</item>
+        <item name="ci_drawable">@drawable/onboarding_circle_btn_bg</item>
+        <item name="android:layout_margin">@dimen/onboarding_large_padding</item>
+        <item name="android:layout_marginBottom">@dimen/onboarding_padding</item>
+    </style>
+
+    <style name="OnboardingAnimation">
+        <item name="android:layout_width">@dimen/onboarding_animation_width_height</item>
+        <item name="android:layout_height">@dimen/onboarding_animation_width_height</item>
+    </style>
+
+    <style name="OnboardingTitle" parent="HelveticaRegularTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/onboarding_large_padding</item>
+        <item name="android:paddingBottom">@dimen/onboarding_padding</item>
+        <item name="android:text">@string/onboarding_title_1</item>
+        <item name="android:textColor">@color/onboarding_title</item>
+        <item name="android:textSize">@dimen/onboarding_title_text_size</item>
+    </style>
+
+    <style name="OnboardingMessage" parent="HelveticaRegularTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/onboarding_medium_padding</item>
+        <item name="android:layout_marginEnd">@dimen/onboarding_medium_padding</item>
+        <item name="android:text">@string/onboarding_message_1</item>
+        <item name="android:textColor">@color/onboarding_message</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/onboarding_message_text_size</item>
+    </style>
+
+</resources>
