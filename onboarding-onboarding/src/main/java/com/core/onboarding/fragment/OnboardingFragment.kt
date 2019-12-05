@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.core.onboarding.R
-import com.ggroup.gbsfo.view.onboardinglib.OnboardingPagerAdapter
 import kotlinx.android.synthetic.main.fragment_onboarding.view.*
 
 class OnboardingFragment(

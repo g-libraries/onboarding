@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.core.onboarding.fragment.OnboardingFragment
-import com.ggroup.gbsfo.R
 
 /**
  * Base Onboarding implementation.
@@ -17,7 +16,7 @@ import com.ggroup.gbsfo.R
  */
 abstract class OnboardingImpl(
     val params: Params,
-    var active: Boolean,
+    var rootViewId: Int,
     private val rootActivity: AppCompatActivity,
     private val rootView: FrameLayout
 ) : IOnboarding {
@@ -28,9 +27,6 @@ abstract class OnboardingImpl(
         val interval: Int = 0,
         val titles: ArrayList<String>,
         val messages: ArrayList<String>
-//        ,
-//        var nextClick: () -> Unit,
-//        var closeClick: () -> Unit
     )
 
     // Must be inside attach() method to listen for Fragments lifecycle events, see implementation for reference
@@ -65,11 +61,9 @@ abstract class OnboardingImpl(
                 params.messages,
                 nextClick = {
                     onboardingViewed()
-//                mainActivityViewModel.onboardingViewed()
                 },
                 closeClick = {
                     onboardingViewed()
-//                mainActivityViewModel.onboardingViewed()
                     rootActivity.supportFragmentManager
                         .beginTransaction()
                         .remove(onboardingFragment)
@@ -81,7 +75,7 @@ abstract class OnboardingImpl(
         rootActivity.supportFragmentManager
             .beginTransaction()
             .add(
-                R.id.activity_main_top_container,
+                rootViewId,
                 onboardingFragment
             )
             .commit()

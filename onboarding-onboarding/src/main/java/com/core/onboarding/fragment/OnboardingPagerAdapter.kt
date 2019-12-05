@@ -1,4 +1,4 @@
-package com.ggroup.gbsfo.view.onboardinglib
+package com.core.onboarding.fragment
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
