@@ -3,7 +3,6 @@ package com.core.onboarding.fragment
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-import com.core.onboarding.fragment.OnboardingItemFragment
 import java.util.ArrayList
 
 class OnboardingPagerAdapter(fm: FragmentManager,

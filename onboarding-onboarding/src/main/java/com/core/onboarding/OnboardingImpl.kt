@@ -1,4 +1,4 @@
-package com.ggroup.gbsfo.view.onboardinglib
+package com.core.onboarding
 
 import android.widget.FrameLayout
 import android.view.*
@@ -16,7 +16,6 @@ import com.core.onboarding.fragment.OnboardingFragment
  */
 abstract class OnboardingImpl(
     val params: Params,
-    var rootViewId: Int,
     private val rootActivity: AppCompatActivity,
     private val rootView: FrameLayout
 ) : IOnboarding {
@@ -75,7 +74,7 @@ abstract class OnboardingImpl(
         rootActivity.supportFragmentManager
             .beginTransaction()
             .add(
-                rootViewId,
+                rootView.id,
                 onboardingFragment
             )
             .commit()

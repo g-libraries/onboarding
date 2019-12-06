@@ -1,4 +1,4 @@
-package com.ggroup.gbsfo.view.onboardinglib
+package com.core.onboarding
 
 
 interface IOnboarding {

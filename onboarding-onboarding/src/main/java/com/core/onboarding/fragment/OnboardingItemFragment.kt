@@ -11,7 +11,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.core.onboarding.R
-import com.ggroup.gbsfo.view.onboardinglib.AnimationDrawableHelper
+import com.core.onboarding.util.AnimationDrawableHelper
 
 class OnboardingItemFragment : Fragment() {
     companion object {

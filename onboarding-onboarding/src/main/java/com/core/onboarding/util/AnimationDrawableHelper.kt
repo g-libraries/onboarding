@@ -1,4 +1,4 @@
-package com.ggroup.gbsfo.view.onboardinglib
+package com.core.onboarding.util
 
 import android.content.Context
 import android.graphics.BitmapFactory
