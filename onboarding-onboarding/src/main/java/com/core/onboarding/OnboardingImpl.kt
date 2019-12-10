@@ -5,6 +5,7 @@ import android.view.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
+import com.core.common.interfaces.ITutorial
 import com.core.onboarding.fragment.OnboardingFragment
 
 /**
@@ -18,7 +19,7 @@ abstract class OnboardingImpl(
     val params: Params,
     private val rootActivity: AppCompatActivity,
     private val rootView: FrameLayout
-) : IOnboarding {
+) : ITutorial {
     data class Params(
         val gifs: ArrayList<String>? = null,
         val anims: ArrayList<String>? = null,
