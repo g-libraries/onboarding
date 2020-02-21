@@ -38,5 +38,5 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
     implementation 'me.relex:circleindicator:2.1.4'
     implementation 'com.github.bumptech.glide:glide:4.9.0'
-    api 'com.github.g-libraries:common:1.0.0'
+    api 'com.github.g-libraries:common:1.0.1'
 }
